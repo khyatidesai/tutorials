@@ -1,13 +1,13 @@
 package org.baeldung.web.service;
 
 import org.apache.commons.lang3.RandomStringUtils;
-import org.baeldung.web.main.Application;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.IntegrationTest;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
+import org.test.web.main.Application;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.core.IsCollectionContaining.*;

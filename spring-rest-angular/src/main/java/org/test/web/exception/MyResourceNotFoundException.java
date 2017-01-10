@@ -1,4 +1,4 @@
-package org.baeldung.web.exception;
+package org.test.web.exception;
 
 public class MyResourceNotFoundException extends RuntimeException {
 

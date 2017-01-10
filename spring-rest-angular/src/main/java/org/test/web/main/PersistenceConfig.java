@@ -1,4 +1,4 @@
-package org.baeldung.web.main;
+package org.test.web.main;
 
 import javax.sql.DataSource;
 
@@ -14,7 +14,7 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 
 @EnableJpaRepositories("org.baeldung.web.dao")
 @ComponentScan(basePackages = { "org.baeldung.web" })
-@EntityScan("org.baeldung.web.entity")
+@EntityScan("org.test.web.entity")
 @Configuration
 public class PersistenceConfig {
 

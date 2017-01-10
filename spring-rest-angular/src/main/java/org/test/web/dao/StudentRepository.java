@@ -1,7 +1,7 @@
-package org.baeldung.web.dao;
+package org.test.web.dao;
 
-import org.baeldung.web.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.test.web.entity.Student;
 
 public interface StudentRepository extends JpaRepository<Student, Long> {
 
